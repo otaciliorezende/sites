@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap');
+
+:root {
+    --cor0: #14446B;
+    --cor1: #75B7EE;
+    --cor2: #2D95EB;
+    --cor3: #556470;
+    --cor4: #2375BB;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serifa;
+    --fonte-destaque: 'Raleway', sem serifa;
+    --fonte-escolhida: 'Segoe UI', sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #92b4d1;
+    font-family: var(--font-padrao);
+ 
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+    min-width: 150px;
+    text-align: center;
+    padding-top: 50px;   
+    
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav > a:hover {
+    background-color: var(--cor2);
+}
+
+header > h1 {
+    color: whitesmoke;
+    font-family: var(--fonte-escolhida);
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgb(60, 60, 60);
+    
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgb(60, 60, 60);
+}
+
+main img {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+nav {
+    background-color: var(--cor1);
+}
+main {
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 15px black;
+}
+main h1 {
+    color: #92b4d1;
+    font-family: var(--fonte-destaque); 
+}
+
+
+main > h1 {
+    color: var(--cor2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: var(--cor2);
+    color: aliceblue;
+}
