@@ -68,13 +68,17 @@ header > p {
 }
 
 main img {
-    width: 500px;
+    width: 200px;
     display: block;
     margin: auto;
 }
 
 nav {
-    background-color: var(--cor1);
+    background-color: var(--cor1);    
+}
+nav > a > foto {
+    max-width: 500px;
+    min-width: 500px;
 }
 main {
     background-color: aliceblue;
@@ -89,7 +93,6 @@ main > article {
     color:black;
     font-family: var(--fonte-escolhida);
 }
-
 footer {
     background-color: var(--cor2);
     color: aliceblue;
