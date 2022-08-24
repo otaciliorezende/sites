@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap');
 
+@import url('https://fonts.googleapis.com/css2? family= Ubuntu:wght@300 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Yuji+Boku & display=swap');
 :root {
     --cor0: #14446B;
     --cor1: #75B7EE;
@@ -10,8 +13,8 @@
     --cor4: #2375BB;
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serifa;
-    --fonte-destaque: 'Raleway', sem serifa;
-    --fonte-escolhida: 'Segoe UI', sans-serif;
+    --fonte-destaque: 'Ubuntu', sem serifa;
+    --fonte-escolhida: 'Yuji Boku', serifa;
 }
 * {
     margin: 0px;
@@ -19,15 +22,18 @@
 }
 body {
     background-color: #92b4d1;
-    font-family: var(--font-padrao);
+    font-family: var(--fonte-destaque);
  
 }
 header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
-    min-width: 150px;
+    min-width: 200px;
     text-align: center;
     padding-top: 50px;   
     
+}
+header > p {
+    min-width: 200px;
 }
 nav > a {
     color: white;
@@ -79,15 +85,9 @@ main {
     margin: auto;
     box-shadow: 0px 0px 15px black;
 }
-main h1 {
-    color: #92b4d1;
-    font-family: var(--fonte-destaque); 
-}
-
-
-main > h1 {
-    color: var(--cor2);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+main > article {
+    color:black;
+    font-family: var(--fonte-escolhida);
 }
 
 footer {
