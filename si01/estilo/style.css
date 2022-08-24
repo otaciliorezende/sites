@@ -20,25 +20,39 @@
     margin: 0px;
     padding: 0px;
 }
+
 body {
     background-color: #92b4d1;
-    font-family: var(--fonte-destaque);
- 
+    font-family: var(--fonte-destaque); 
 }
 header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
-    min-width: 200px;
+    min-width: 500px;
     text-align: center;
-    padding-top: 50px;   
-    
+    padding-top: 40px; 
+}
+header > h1 {    
+    font-family: var(--fonte-escolhida);
+    font-size: 3em;
+    color: whitesmoke;
+    padding: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgb(60, 60, 60);    
 }
 header > p {
-    min-width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 3em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding: 25px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(60, 60, 60, 0.697);
 }
 nav > a {
     color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
@@ -46,27 +60,10 @@ nav > a {
 nav > a:hover {
     background-color: var(--cor2);
 }
-
-header > h1 {
-    color: whitesmoke;
-    font-family: var(--fonte-escolhida);
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgb(60, 60, 60);
-    
-}
-
-header > p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
-    font-size: 1.2em;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: auto;
-    text-shadow: 2px 2px 0px rgb(60, 60, 60);
-}
-
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+}    
 main img {
     width: 200px;
     display: block;
@@ -76,7 +73,7 @@ main img {
 nav {
     background-color: var(--cor1);    
 }
-nav > a > foto {
+nav > a {
     max-width: 500px;
     min-width: 500px;
 }
@@ -88,6 +85,32 @@ main {
     max-width: 1000px;
     margin: auto;
     box-shadow: 0px 0px 15px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main strong {
+    color: #03121e;
+    font-weight: bold;
+    background-color: #92b4d1;
+    padding: 1px 5px;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor4);
+    background-color: var(--cor1);
+    padding: 2px 4px;    
+}
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
 }
 main > article {
     color:black;
@@ -96,4 +119,11 @@ main > article {
 footer {
     background-color: var(--cor2);
     color: aliceblue;
+    text-align: center;
+    font-size: 0.7;
+    padding: 3px;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
 }
