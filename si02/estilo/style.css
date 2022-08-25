@@ -22,9 +22,9 @@ body {
     background-position: center; 
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 100%;
     margin: 0 auto;
-    border: 5px solid #fdf5e6;
+    border: 10px solid #6a6252;
     padding: 0px;
   }
 
@@ -33,7 +33,7 @@ body {
   }
 
   .w3-border {
-    border: 3px solid rgb(162, 131, 131) !important;
+    border: 3px solid rgb(143, 113, 113) !important;
   }
 
   .links-container {
